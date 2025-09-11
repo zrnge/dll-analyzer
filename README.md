@@ -17,3 +17,20 @@ Always test inside a VM or sandbox.
 git clone https://github.com/zrnge/dll-analyzer.git
 cd dll-analyzer
 pip install -r requirements.txt
+
+### Usage
+
+usage: dll_analyzer.py [-h] [--list] [--call FUNC] [--args [ARGS ...]] [--types [TYPES ...]] [--restype RESTYPE] dll
+
+DLL Dynamic Analysis Tool
+
+positional arguments:
+  dll                  Path to DLL
+
+options:
+  -h, --help           show this help message and exit
+  --list               List exported functions
+  --call FUNC          Function name to call
+  --args [ARGS ...]    Arguments for function
+  --types [TYPES ...]  Argument types (int, str)
+  --restype RESTYPE    Return type (int, str, void)

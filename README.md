@@ -17,7 +17,7 @@ Always test inside a VM or sandbox.
 git clone https://github.com/zrnge/dll-analyzer.git
 cd dll-analyzer
 pip install -r requirements.txt
-
+```
 ### Usage
 
 usage: dll_analyzer.py [-h] [--list] [--call FUNC] [--args [ARGS ...]] [--types [TYPES ...]] [--restype RESTYPE] dll
